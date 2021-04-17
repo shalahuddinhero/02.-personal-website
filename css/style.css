@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+h1 .name-highlight {
+    color: #FF448E;
+    font-weight: 700;
+    font-size: 50px;
+}
+p {
+    color: dimgray;
+}
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, #FF448E, #cc3270);
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+.half-width {
+    width: 40%;
+    padding: 2%;
+    margin: 5px;
+    float: left;
+}
+.half-width img {
+    width: 100%;
+}
+.container {
+    width: 90%;
+    margin: 5px 5px;
+    margin: auto;
+}
+.biography {
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+.work {
+    background-image: url(../images/latest-work-bg.png);
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.work p {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+}
+.footer {
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-bottom: 100px;
+    margin-top:0;
+}
+.image-area {
+    overflow: hidden;
+}
+
+
+.work-area img {
+    width: 33%;
+    display:block;
+    margin: auto;
+    float: left;
+    margin: auto;
+}
+
+
+
+.footer-area {
+    overflow: hidden;
+    text-align: center;
+}
+.footer-area .client h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.footer-area .founder {
+    margin-bottom: 30px;
+}
+.footer-area .founder p {
+    margin: 0;
+    font-size: 14px;
+}
+.footer-area .founder h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.footer-area .founder  {
+    color: black;
+}
+.footer-area .passage {
+    margin-bottom: 70px;
+}
+.footer-area .message p {
+    color: white;
+    text-align: center;
+}
+.footer-area .message {
+    background-color: #FF4B92;
+    width: 450px;
+    height: 130px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 30px;
+}
+.copy-right p {
+    text-align: center;
+}

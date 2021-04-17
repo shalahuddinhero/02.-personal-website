@@ -1,0 +1,90 @@
+@media (max-width: 935px) {
+    h1 .name-highlight {
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .half-width {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        float: none;
+        margin: 20px 0;
+    }
+    .header {
+        background-image: url(../images/header-bg.png);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        padding: 20px;
+        text-align: center;
+    }
+    .half-width img {
+        width: 70%;
+    }
+    .biography {
+        background-image: url(../images/biography-bg.png);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .work {
+      margin-bottom: 20px;
+    }
+}
+@media (max-width: 550px) {
+    .footer-area .message {
+        width: 225px;
+        height: 65px;
+    }
+    .footer { 
+        padding-bottom: 50px;
+    }
+    .footer-area .message p {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 470px) {
+    .work p {
+        font-size: 30px;
+    }
+    .footer-area .client h2 {
+        font-size: 30px;
+    }
+    .copy-right p {
+        text-align: center;
+        font-size: 10px;
+    }
+}
+@media (max-width: 300px ) {
+    .footer-area .message {
+        width: 200px;
+        height: 50px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 350px) {
+    h2 {
+         font-size: 35px;
+    }
+    h1 .name-highlight {
+        font-size: 30px;
+    }
+    .footer-area .client h2 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 290px) {
+    .work p {
+        font-size: 25px;
+   }
+   .footer-area .client h2 {
+    font-size: 20px;
+}
+.work p {
+    font-size: 20px;
+}
+}
